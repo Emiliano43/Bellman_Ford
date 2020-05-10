@@ -1,0 +1,10 @@
+﻿  unittest3.cpp
+c:\users\enazy\source\repos\progr3\progr3\algorithm_forda.cpp(92): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\enazy\source\repos\progr3\progr3\algorithm_forda.cpp(101): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\enazy\source\repos\progr3\progr3\algorithm_forda.cpp(148): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\enazy\source\repos\progr3\progr3\algorithm_forda.cpp(156): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\enazy\source\repos\progr3\progr3\list.h(278): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\enazy\source\repos\progr3\progr3\list.h(275): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\enazy\source\repos\progr3\progr3\listtempclass.h(307): note: выполняется компиляция ссылки на экземпляр шаблон функции "bool List<char>::compare(List<char>)"
+  c:\users\enazy\source\repos\progr3\progr3\algorithm_forda.cpp(22): note: выполняется компиляция ссылки на экземпляр шаблон класс "List<char>"
+  UnitTest3.vcxproj -> C:\Users\enazy\source\repos\Progr3\Debug\UnitTest3.dll

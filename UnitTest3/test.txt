@@ -1,0 +1,2 @@
+Saint-Petersburg;Moskow;30;35
+Moskow;Ufa;50;50
