@@ -20,22 +20,22 @@ namespace UnitTest3
 			}
 			path.set_data("C:\\Users\\enazy\\source\\repos\\Progr3\\UnitTest3\\test.txt");
 		}
-		TEST_METHOD(test_find_path) {
-			Algorithm_Forda path;
+		TEST_METHOD(test_find_way) {
+			Algorithm_Forda way;
 			try {
-				path.find_way(0, 5);
+				way.find_way(0, 5);
 			}
 			catch (runtime_error e) {
 				Assert::AreEqual(e.what(), "Data is not set");
 			}
 			path.set_data("C:\\Users\\enazy\\source\\repos\\Progr3\\UnitTest3\\test.txt");
 			try {
-				path.find_way(0, 5);
+				way.find_way(0, 5);
 			}
 			catch (invalid_argument e) {
 				Assert::AreEqual(e.what(), "Number of city is incorrect");
 			}
-			List<int> flight = path.return_way(0, 2);
+			List<int> flight = way.return_way(0, 2);
 			Assert::AreEqual(flight.at(0), 0);
 			Assert::AreEqual(flight.at(1), 1);
 			Assert::AreEqual(flight.at(2), 2);
