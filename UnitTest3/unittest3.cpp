@@ -11,14 +11,14 @@ namespace UnitTest3
 	public:
 		TEST_METHOD(test_set_data)
 		{
-			Algorithm_Forda path;
+			Algorithm_Forda way;
 			try {
-				path.set_data("wrong_test_file.txt");
+				way.set_data("wrong_test_file.txt");
 			}
 			catch (runtime_error e) {
 				Assert::AreEqual(e.what(), "File is not found");
 			}
-			path.set_data("C:\\Users\\enazy\\source\\repos\\Progr3\\UnitTest3\\test.txt");
+			way.set_data("C:\\Users\\enazy\\source\\repos\\Progr3\\UnitTest3\\test.txt");
 		}
 		TEST_METHOD(test_find_way) {
 			Algorithm_Forda way;
