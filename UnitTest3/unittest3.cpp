@@ -28,7 +28,7 @@ namespace UnitTest3
 			catch (runtime_error e) {
 				Assert::AreEqual(e.what(), "Data is not set");
 			}
-			path.set_data("C:\\Users\\enazy\\source\\repos\\Progr3\\UnitTest3\\test.txt");
+			way.set_data("C:\\Users\\enazy\\source\\repos\\Progr3\\UnitTest3\\test.txt");
 			try {
 				way.find_way(0, 5);
 			}
