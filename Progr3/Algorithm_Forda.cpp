@@ -8,6 +8,8 @@ Algorithm_Forda::Algorithm_Forda()
 
 Algorithm_Forda::~Algorithm_Forda()
 {
+	city.~ListtempClass();
+	ribs.~List();
 }
 
 void Algorithm_Forda::set_data()						//gets data from "input.txt" file
